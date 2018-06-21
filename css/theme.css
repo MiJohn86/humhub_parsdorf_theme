@@ -3604,7 +3604,6 @@ body {
   background-attachment: fixed;
 }
 #topbar-first {
-  height: 150px;
   border-radius: 4px 4px 0 0;
 }
 #topbar-first a {
@@ -3612,9 +3611,6 @@ body {
 }
 #topbar-first .notifications {
   bottom: 0;
-}
-#topbar-first .topbar-actions {
-  top: 100px;
 }
 #topbar-first .btn-enter:hover {
   background-color: #ededed;
@@ -3637,9 +3633,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.pull-right {
-  padding-right: 30px;
-}
 .wallFilterPanel li a {
   background-color: white;
 }
@@ -3659,9 +3652,23 @@ body {
 .nav-pills .dropdown-menu li a {
   color: #7a7a7a;
 }
+@media (max-width: 767px) {
+  .topbar {
+    height: 50px;
+  }
+}
 @media (min-width: 768px) {
   .topbar {
     width: 720px;
+  }
+  #topbar-first {
+    height: 150px;
+  }
+  #topbar-first .topbar-actions {
+    top: 100px;
+  }
+  .pull-right {
+    padding-right: 30px;
   }
 }
 @media (min-width: 992px) {
