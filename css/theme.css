@@ -3601,6 +3601,7 @@ body {
   background-size: cover;
   background-position: center center;
   padding-top: 0;
+  background-attachment: fixed;
 }
 #topbar-first {
   height: 150px;
