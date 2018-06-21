@@ -1,0 +1,98 @@
+/**
+ * Define or overwrite your theme selectors within this file.
+**/
+html {
+   height: 100%;
+}
+body {
+   background-image: url('/uploads/background.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   padding-top: 0;
+}
+#topbar-first {
+   height: 150px;
+   border-radius: 4px 4px 0 0;
+}
+
+#topbar-first a {
+   color: #393939;
+}
+
+#topbar-first .notifications {
+  bottom: 0;
+}
+
+#topbar-first .topbar-actions {
+  top: 100px;
+}
+
+#topbar-first .btn-enter:hover {
+  background-color: #ededed; 
+}
+
+#topbar-first .btn-enter {
+   margin: 6px 6px;
+} 
+
+#topbar-second {
+   top: 0;
+   border-radius: 0 0 4px 4px;
+}
+
+#layout-content {
+   padding-top: 20px;
+}
+
+.img-rounded {
+   height: 140px;
+}
+
+.topbar {
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.pull-right {
+   padding-right: 30px;
+}
+
+.wallFilterPanel li a {
+   background-color: white;
+}
+
+.wallFilterPanel .dropdown-menu li a {
+   color: #555;
+}
+
+.btn-default {
+   background: transparent;
+}
+
+.btn-default:hover, .btn-default:focus {
+   background: #f2f2f2;
+}
+
+.btn-primary {
+   color: #7a7a7a !important;
+}
+
+@media (min-width: 768px) {
+   .topbar {
+      width: 720px;
+   }
+}
+
+@media (min-width: 992px) {
+   .topbar {
+      width: 940px;
+   }
+}
+
+@media (min-width: 1200px) {
+   .topbar {
+      width: 1140px;
+   }
+}
