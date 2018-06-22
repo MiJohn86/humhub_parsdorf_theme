@@ -10,13 +10,13 @@
 }
 /* Primary */
 .colorPrimary {
-  color: #FFFFFF !important;
+  color: #FFF !important;
 }
 .backgroundPrimary {
-  background: #FFFFFF !important;
+  background: #FFF !important;
 }
 .borderPrimary {
-  border-color: #FFFFFF !important;
+  border-color: #FFF !important;
 }
 /* Info */
 .colorInfo {
@@ -200,7 +200,7 @@ input[type=select] {
   color: #bebebe;
 }
 #topbar-first {
-  background-color: #FFFFFF;
+  background-color: #FFF;
   top: 0;
   z-index: 1030;
   color: white;
@@ -366,7 +366,7 @@ input[type=select] {
 #topbar-first .dropdown.account.open > a,
 #topbar-first .dropdown.account > a:hover,
 #topbar-first .dropdown.account.open > a:hover {
-  background-color: #FFFFFF;
+  background-color: #FFF;
 }
 #topbar-second {
   top: 50px;
@@ -483,8 +483,8 @@ input[type=select] {
   }
 }
 .login-container {
-  background-color: #FFFFFF;
-  background-image: linear-gradient(to right, #FFFFFF 0%, #ffffff 50%, #ffffff 100%), linear-gradient(to right, #ffffff 0%, #ffffff 51%, #ffffff 100%);
+  background-color: #FFF;
+  background-image: linear-gradient(to right, #FFF 0%, #ffffff 50%, #ffffff 100%), linear-gradient(to right, #ffffff 0%, #ffffff 51%, #ffffff 100%);
   background-size: 100% 100%;
   position: relative;
   padding-top: 40px;
@@ -946,8 +946,8 @@ ul.contextMenu li.selected {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  background-color: #FFFFFF;
-  border-color: #FFFFFF;
+  background-color: #FFF;
+  border-color: #FFF;
 }
 .pagination > li > a,
 .pagination > li > span,
@@ -1052,7 +1052,7 @@ ul.tab-menu-settings li.active > a {
 .nav-pills .dropdown-menu,
 .nav-tabs .dropdown-menu,
 .account .dropdown-menu {
-  background-color: #FFFFFF;
+  background-color: #FFF;
   border: none;
 }
 .nav-pills .dropdown-menu li.divider,
@@ -1065,7 +1065,7 @@ ul.tab-menu-settings li.active > a {
 .nav-pills .dropdown-menu li,
 .nav-tabs .dropdown-menu li,
 .account .dropdown-menu li {
-  border-left: 3px solid #FFFFFF;
+  border-left: 3px solid #FFF;
 }
 .nav-pills .dropdown-menu li a,
 .nav-tabs .dropdown-menu li a,
@@ -1112,12 +1112,12 @@ ul.tab-menu-settings li.active > a {
 }
 .nav-pills.preferences .dropdown.open .dropdown-toggle,
 .nav-pills.preferences .dropdown.open .dropdown-toggle:hover {
-  background-color: #FFFFFF;
+  background-color: #FFF;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  background-color: #FFFFFF;
+  background-color: #FFF;
 }
 .nav-tabs {
   margin-bottom: 10px;
@@ -1254,7 +1254,7 @@ ul.tab-menu-settings li.active > a {
   background: #5a5a5a;
 }
 .btn-primary {
-  background: #FFFFFF;
+  background: #FFF;
   color: #fff !important;
 }
 .btn-primary:hover,
@@ -1741,7 +1741,7 @@ a.list-group-item.active:focus {
   a.list-group-item.active:hover,
   a.list-group-item.active:focus {
     border: none !important;
-    background: #FFFFFF !important;
+    background: #FFF !important;
     color: #fff !important;
   }
 }
@@ -1851,7 +1851,7 @@ a.list-group-item.active:focus {
   background-color: #d7d7d7;
 }
 .tooltip-inner {
-  background-color: #FFFFFF;
+  background-color: #FFF;
   max-width: 400px;
   text-align: left;
   font-weight: 300;
@@ -1860,28 +1860,28 @@ a.list-group-item.active:focus {
   white-space: pre-wrap;
 }
 .tooltip.top .tooltip-arrow {
-  border-top-color: #FFFFFF;
+  border-top-color: #FFF;
 }
 .tooltip.top-left .tooltip-arrow {
-  border-top-color: #FFFFFF;
+  border-top-color: #FFF;
 }
 .tooltip.top-right .tooltip-arrow {
-  border-top-color: #FFFFFF;
+  border-top-color: #FFF;
 }
 .tooltip.right .tooltip-arrow {
-  border-right-color: #FFFFFF;
+  border-right-color: #FFF;
 }
 .tooltip.left .tooltip-arrow {
-  border-left-color: #FFFFFF;
+  border-left-color: #FFF;
 }
 .tooltip.bottom .tooltip-arrow {
-  border-bottom-color: #FFFFFF;
+  border-bottom-color: #FFF;
 }
 .tooltip.bottom-left .tooltip-arrow {
-  border-bottom-color: #FFFFFF;
+  border-bottom-color: #FFF;
 }
 .tooltip.bottom-right .tooltip-arrow {
-  border-bottom-color: #FFFFFF;
+  border-bottom-color: #FFF;
 }
 .tooltip.in {
   opacity: 1;
@@ -3586,6 +3586,7 @@ ul.tag_input li img {
  * @prev-comment: true;
  *
 **/
+/* @prev-button: true; */
 /**
  * Define your mixins within this file.
 **/
@@ -3602,6 +3603,13 @@ body {
   background-position: center center;
   padding-top: 0;
   background-attachment: fixed;
+}
+.btn-primary {
+  background: #e20001;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  color: #555 !important;
 }
 #topbar-first {
   border-radius: 4px 4px 0 0;
@@ -3646,11 +3654,11 @@ body {
 .btn-default:focus {
   background: #f2f2f2;
 }
-.btn-primary {
-  color: #7a7a7a !important;
-}
 .nav-pills .dropdown-menu li a {
   color: #7a7a7a;
+}
+.tooltip-inner {
+  color: #555;
 }
 @media (max-width: 767px) {
   .topbar {
