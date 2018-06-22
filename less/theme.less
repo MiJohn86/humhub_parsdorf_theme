@@ -23,10 +23,19 @@ body {
 
 #topbar-first {
    border-radius: 4px 4px 0 0;
+   background-color: #FFF;
 }
 
-#topbar-first a {
-   color: #393939;
+#topbar-first .dropdown.account > a, #topbar-first .dropdown.account.open > a, #topbar-first .btn-group > a {
+   background-color: #FFF;
+}
+
+#topbar-first .dropdown.account > a:hover,  #topbar-first .dropdown.account.open > a:hover, .account .dropdown-menu li a:hover {
+   background-color: #f7f7f7;
+}
+
+.account .dropdown-menu {
+   background-color: #FFF;
 }
 
 #topbar-first .notifications {
