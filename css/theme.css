@@ -3615,6 +3615,9 @@ body {
   border-radius: 4px 4px 0 0;
   background-color: #FFF;
 }
+#topbar-first a {
+  color: #555;
+}
 #topbar-first .dropdown.account > a,
 #topbar-first .dropdown.account.open > a,
 #topbar-first .btn-group > a {
