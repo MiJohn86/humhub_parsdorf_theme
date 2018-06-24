@@ -3633,9 +3633,14 @@ body {
 }
 #topbar-first .btn-enter:hover {
   background-color: #ededed;
+  color: #555;
 }
 #topbar-first .btn-enter {
   margin: 6px 6px;
+  color: white;
+}
+#topbar-first a {
+  color: #555;
 }
 #topbar-second {
   top: 0;
