@@ -3649,7 +3649,7 @@ body {
 #layout-content {
   padding-top: 20px;
 }
-.img-rounded {
+.navbar-brand > img {
   height: 140px;
 }
 .topbar {
